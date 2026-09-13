@@ -1,0 +1,125 @@
+statcan_code,statcan_industry,portfolio_sector
+BS111CL,Cannabis production (licensed),Agriculture & Food
+BS111CU,Cannabis production (unlicensed),Agriculture & Food
+BS11400,"Fishing, hunting and trapping",Agriculture & Food
+BS11500,Support activities for agriculture and forestry,Agriculture & Food
+BS11A00,Crop and animal production,Agriculture & Food
+BS11B00,Crop and animal production (except cannabis),Agriculture & Food
+BS31110,Animal food manufacturing,Agriculture & Food
+BS31130,Sugar and confectionery product manufacturing,Agriculture & Food
+BS31140,Fruit and vegetable preserving and specialty food manufacturing,Agriculture & Food
+BS31150,Dairy product manufacturing,Agriculture & Food
+BS31160,Meat product manufacturing,Agriculture & Food
+BS31170,Seafood product preparation and packaging,Agriculture & Food
+BS311A0,Miscellaneous food manufacturing,Agriculture & Food
+BS31211,Soft drink and ice manufacturing,Agriculture & Food
+BS31212,Breweries,Agriculture & Food
+BS3121A,Wineries and distilleries,Agriculture & Food
+BS31220,Tobacco manufacturing,Agriculture & Food
+BS312A0,Tobacco and cannabis product manufacturing,Agriculture & Food
+BS48100,Air transportation,Airlines
+BS33610,Motor vehicle manufacturing,Autos & Transport Equipment
+BS33620,Motor vehicle body and trailer manufacturing,Autos & Transport Equipment
+BS33630,Motor vehicle parts manufacturing,Autos & Transport Equipment
+BS33640,Aerospace product and parts manufacturing,Autos & Transport Equipment
+BS33650,Railroad rolling stock manufacturing,Autos & Transport Equipment
+BS33660,Ship and boat building,Autos & Transport Equipment
+BS33690,Other transportation equipment manufacturing,Autos & Transport Equipment
+BS52410,Insurance carriers,Banks & Insurance
+BS52B00,Depository credit intermediation and monetary authorities,Banks & Insurance
+BS5A000,"Other finance, insurance and real estate services and management of companies and enterprises",Banks & Insurance
+BS54180,"Advertising, public relations and related services",Business & Consumer Services
+BS541C0,"Legal, accounting and architectural, engineering and related services",Business & Consumer Services
+BS541D0,"Computer systems design and other professional, scientific and technical services",Business & Consumer Services
+BS56100,Administrative and support services,Business & Consumer Services
+BS56200,Waste management and remediation services,Business & Consumer Services
+BS61000,Educational services,Business & Consumer Services
+BS62000,Health care and social assistance,Business & Consumer Services
+BS71000,"Arts, entertainment and recreation",Business & Consumer Services
+BS72000,Accommodation and food services,Business & Consumer Services
+BS81100,Repair and maintenance,Business & Consumer Services
+BS81300,Professional and similar organisations,Business & Consumer Services
+BS81A00,Personal services and private households,Business & Consumer Services
+BS32730,Cement and concrete product manufacturing,Cement & Building Materials
+BS327A0,Non-metallic mineral product manufacturing (except cement and concrete products),Cement & Building Materials
+BS32510,Basic chemical manufacturing,Chemicals & Plastics
+BS32530,"Pesticide, fertilizer and other agricultural chemical manufacturing",Chemicals & Plastics
+BS32540,Pharmaceutical and medicine manufacturing,Chemicals & Plastics
+BS325C0,Miscellaneous chemical product manufacturing,Chemicals & Plastics
+BS32610,Plastic product manufacturing,Chemicals & Plastics
+BS32620,Rubber product manufacturing,Chemicals & Plastics
+BS23A00,Residential building construction,Construction
+BS23B00,Non-residential building construction,Construction
+BS23C10,Transportation engineering construction,Construction
+BS23C20,Oil and gas engineering construction,Construction
+BS23C30,Electric power engineering construction,Construction
+BS23C40,Communication engineering construction,Construction
+BS23C50,Other engineering construction,Construction
+BS23D00,Repair construction,Construction
+BS23E00,Other activities of the construction industry,Construction
+BS22110,"Electric power generation, transmission and distribution",Electric Utilities
+BS11300,Forestry and logging,Forest & Paper Products
+BS32100,Wood product manufacturing,Forest & Paper Products
+BS32210,"Pulp, paper and paperboard mills",Forest & Paper Products
+BS32220,Converted paper product manufacturing,Forest & Paper Products
+BS32300,Printing and related support activities,Forest & Paper Products
+BS221A0,"Natural gas distribution, water, sewage and other systems",Gas Distribution & Water
+BS31A00,Textile and textile product mills,Industrial & Tech Manufacturing
+BS31B00,Clothing and leather and allied product manufacturing,Industrial & Tech Manufacturing
+BS33300,Machinery manufacturing,Industrial & Tech Manufacturing
+BS33400,Computer and electronic product manufacturing,Industrial & Tech Manufacturing
+BS33410,Computer and peripheral equipment manufacturing,Industrial & Tech Manufacturing
+BS334B0,Electronic product manufacturing,Industrial & Tech Manufacturing
+BS33500,"Electrical equipment, appliance and component manufacturing",Industrial & Tech Manufacturing
+BS33520,Household appliance manufacturing,Industrial & Tech Manufacturing
+BS335A0,Electrical  equipment and component manufacturing,Industrial & Tech Manufacturing
+BS33700,Furniture and related product manufacturing,Industrial & Tech Manufacturing
+BS33900,Miscellaneous manufacturing,Industrial & Tech Manufacturing
+BS33100,Primary metal manufacturing,Metals & Steel
+BS33200,Fabricated metal product manufacturing,Metals & Steel
+BS21210,Coal mining,Mining & Quarrying
+BS21220,Metal ore mining,Mining & Quarrying
+BS21230,Non-metallic mineral mining and quarrying,Mining & Quarrying
+BS21100,Oil and gas extraction,Oil & Gas Producers
+BS21300,Support activities for mining and oil and gas extraction,Oil & Gas Producers
+FC11000,Repair and maintenance,Out of scope: fictive industries
+FC12000,Operating supplies,Out of scope: fictive industries
+FC13000,Office supplies,Out of scope: fictive industries
+FC20000,"Advertising, promotion, meals, entertainment, and travel",Out of scope: fictive industries
+FC30000,Transportation margins,Out of scope: fictive industries
+GS61130,Universities,Out of scope: government and non-profit
+GS611B0,Educational services (except universities),Out of scope: government and non-profit
+GS62200,Hospitals,Out of scope: government and non-profit
+GS62300,Nursing and residential care facilities,Out of scope: government and non-profit
+GS62B00,Health care and social assistance (except nursing and residential care facilities),Out of scope: government and non-profit
+GS91100,Other federal government services,Out of scope: government and non-profit
+GS91200,Other provincial and territorial government services,Out of scope: government and non-profit
+GS91300,Other municipal government services,Out of scope: government and non-profit
+GS91400,Other Indigenous government services,Out of scope: government and non-profit
+NP61000,Non-profit education services,Out of scope: government and non-profit
+NP62400,Non-profit social assistance,Out of scope: government and non-profit
+NP71000,"Non-profit arts, entertainment and recreation",Out of scope: government and non-profit
+NP81310,Religious organizations,Out of scope: government and non-profit
+NPA0000,Miscellaneous non-profit institutions serving households,Out of scope: government and non-profit
+BS5311A,Owner-occupied dwellings,Out of scope: owner-occupied dwellings
+BS32400,Petroleum and coal product manufacturing,Petroleum Refining
+BS48600,Pipeline transportation,Pipelines
+BS48200,Rail transportation,Rail
+BS53110,Lessors of real estate,Real Estate
+BS53B00,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works),Real Estate
+BS41000,Wholesale trade,Retail & Wholesale
+BS453BL,Cannabis stores (licensed),Retail & Wholesale
+BS453BU,Cannabis stores (unlicensed),Retail & Wholesale
+BS459BL,Cannabis retailers (licensed),Retail & Wholesale
+BS459BU,Cannabis retailers (unlicensed),Retail & Wholesale
+BS4A000,Retail trade,Retail & Wholesale
+BS4AA00,Retail trade (except cannabis),Retail & Wholesale
+BS51200,Motion picture and sound recording industries,Telecom & Media
+BS51510,Radio and television broadcasting,Telecom & Media
+BS51610,Radio and television broadcasting stations,Telecom & Media
+BS51B00,"Publishing, pay/specialty services, telecommunications and other information services",Telecom & Media
+BS48300,Water transportation,"Trucking, Marine & Logistics"
+BS48400,Truck transportation,"Trucking, Marine & Logistics"
+BS48B00,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation","Trucking, Marine & Logistics"
+BS49300,Warehousing and storage,"Trucking, Marine & Logistics"
+BS49A00,Postal service and couriers and messengers,"Trucking, Marine & Logistics"
