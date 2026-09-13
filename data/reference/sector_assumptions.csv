@@ -1,0 +1,23 @@
+portfolio_sector,target_book_weight,revenue_to_evic_proxy
+Oil & Gas Producers,0.060,0.55
+Petroleum Refining,0.015,1.40
+Pipelines,0.070,0.25
+Electric Utilities,0.100,0.30
+Gas Distribution & Water,0.050,0.35
+Mining & Quarrying,0.025,0.50
+Cement & Building Materials,0.010,0.70
+Metals & Steel,0.015,0.90
+Chemicals & Plastics,0.020,0.80
+Forest & Paper Products,0.020,0.85
+Agriculture & Food,0.030,1.10
+Airlines,0.015,0.90
+Rail,0.040,0.30
+"Trucking, Marine & Logistics",0.030,0.90
+Construction,0.030,1.20
+Autos & Transport Equipment,0.020,1.00
+Industrial & Tech Manufacturing,0.030,0.70
+Retail & Wholesale,0.050,1.30
+Telecom & Media,0.070,0.35
+Banks & Insurance,0.160,0.15
+Real Estate,0.080,0.12
+Business & Consumer Services,0.060,0.60

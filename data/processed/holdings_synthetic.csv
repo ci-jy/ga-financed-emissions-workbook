@@ -1,0 +1,301 @@
+holding_id,sector,issuer,instrument,rating,outstanding_mcad,evic_mcad,revenue_mcad
+H001,Oil & Gas Producers,SYN Oil & Gas Producers 01 Corp,Public corporate bond,BBB,37.1,3368.0,
+H002,Oil & Gas Producers,SYN Oil & Gas Producers 02 Corp,Private placement,A,65.4,24385.0,
+H003,Oil & Gas Producers,SYN Oil & Gas Producers 03 Corp,Public corporate bond,A,11.5,457.0,
+H004,Oil & Gas Producers,SYN Oil & Gas Producers 04 Corp,Public corporate bond,A,12.3,697.0,
+H005,Oil & Gas Producers,SYN Oil & Gas Producers 05 Corp,Private placement,BBB,21.9,926.0,
+H006,Oil & Gas Producers,SYN Oil & Gas Producers 06 Corp,Public corporate bond,A,78.1,2705.0,
+H007,Oil & Gas Producers,SYN Oil & Gas Producers 07 Corp,Public corporate bond,BBB,11.5,1374.0,
+H008,Oil & Gas Producers,SYN Oil & Gas Producers 08 Corp,Private placement,BBB,76.7,22687.0,
+H009,Oil & Gas Producers,SYN Oil & Gas Producers 09 Corp,Private placement,A,54.4,2131.0,
+H010,Oil & Gas Producers,SYN Oil & Gas Producers 10 Corp,Public corporate bond,BBB,32.1,1490.0,
+H011,Oil & Gas Producers,SYN Oil & Gas Producers 11 Corp,Infrastructure debt,BBB,9.8,280.0,
+H012,Oil & Gas Producers,SYN Oil & Gas Producers 12 Corp,Public corporate bond,BBB,29.5,2304.0,
+H013,Oil & Gas Producers,SYN Oil & Gas Producers 13 Corp,Public corporate bond,BBB,36.5,9885.0,4435.0
+H014,Oil & Gas Producers,SYN Oil & Gas Producers 14 Corp,Public corporate bond,A,34.7,2122.0,
+H015,Oil & Gas Producers,SYN Oil & Gas Producers 15 Corp,Infrastructure debt,A,12.4,376.0,
+H016,Oil & Gas Producers,SYN Oil & Gas Producers 16 Corp,Infrastructure debt,BBB,93.9,4689.0,2888.0
+H017,Oil & Gas Producers,SYN Oil & Gas Producers 17 Corp,Private placement,AA,74.3,4820.0,
+H018,Oil & Gas Producers,SYN Oil & Gas Producers 18 Corp,Private placement,BBB,28.0,1312.0,863.0
+H019,Petroleum Refining,SYN Petroleum Refining 01 Corp,Private placement,BBB,98.2,8532.0,
+H020,Petroleum Refining,SYN Petroleum Refining 02 Corp,Public corporate bond,A,19.2,517.0,
+H021,Petroleum Refining,SYN Petroleum Refining 03 Corp,Public corporate bond,BBB,18.0,1542.0,
+H022,Petroleum Refining,SYN Petroleum Refining 04 Corp,Public corporate bond,BBB,20.2,613.0,887.0
+H023,Petroleum Refining,SYN Petroleum Refining 05 Corp,Private placement,A,24.4,847.0,
+H024,Pipelines,SYN Pipelines 01 Corp,Private placement,BBB,12.8,479.0,
+H025,Pipelines,SYN Pipelines 02 Corp,Public corporate bond,BBB,19.9,9382.0,2202.0
+H026,Pipelines,SYN Pipelines 03 Corp,Infrastructure debt,A,13.5,420.0,115.0
+H027,Pipelines,SYN Pipelines 04 Corp,Public corporate bond,BBB,137.7,7124.0,
+H028,Pipelines,SYN Pipelines 05 Corp,Infrastructure debt,AA,31.1,956.0,178.0
+H029,Pipelines,SYN Pipelines 06 Corp,Private placement,AA,23.0,1720.0,
+H030,Pipelines,SYN Pipelines 07 Corp,Public corporate bond,A,64.6,4069.0,1579.0
+H031,Pipelines,SYN Pipelines 08 Corp,Public corporate bond,A,31.8,910.0,
+H032,Pipelines,SYN Pipelines 09 Corp,Infrastructure debt,A,28.6,978.0,
+H033,Pipelines,SYN Pipelines 10 Corp,Private placement,AA,6.9,297.0,
+H034,Pipelines,SYN Pipelines 11 Corp,Public corporate bond,A,24.3,2014.0,
+H035,Pipelines,SYN Pipelines 12 Corp,Infrastructure debt,BBB,22.1,924.0,
+H036,Pipelines,SYN Pipelines 13 Corp,Private placement,A,26.9,1561.0,
+H037,Pipelines,SYN Pipelines 14 Corp,Public corporate bond,A,34.0,1364.0,482.0
+H038,Pipelines,SYN Pipelines 15 Corp,Private placement,BBB,34.6,8107.0,2550.0
+H039,Pipelines,SYN Pipelines 16 Corp,Public corporate bond,AA,34.9,1816.0,378.0
+H040,Pipelines,SYN Pipelines 17 Corp,Private placement,BBB,85.9,11694.0,
+H041,Pipelines,SYN Pipelines 18 Corp,Private placement,BBB,101.0,4753.0,
+H042,Pipelines,SYN Pipelines 19 Corp,Public corporate bond,A,41.7,1951.0,
+H043,Pipelines,SYN Pipelines 20 Corp,Private placement,BBB,15.8,2422.0,605.0
+H044,Pipelines,SYN Pipelines 21 Corp,Private placement,BBB,49.0,5338.0,1108.0
+H045,Electric Utilities,SYN Electric Utilities 01 Corp,Private placement,BBB,172.9,25129.0,
+H046,Electric Utilities,SYN Electric Utilities 02 Corp,Infrastructure debt,AA,54.5,2527.0,
+H047,Electric Utilities,SYN Electric Utilities 03 Corp,Public corporate bond,BBB,30.8,980.0,
+H048,Electric Utilities,SYN Electric Utilities 04 Corp,Infrastructure debt,A,23.2,2736.0,669.0
+H049,Electric Utilities,SYN Electric Utilities 05 Corp,Private placement,AA,24.4,1591.0,504.0
+H050,Electric Utilities,SYN Electric Utilities 06 Corp,Public corporate bond,A,54.6,3485.0,
+H051,Electric Utilities,SYN Electric Utilities 07 Corp,Public corporate bond,A,18.1,913.0,313.0
+H052,Electric Utilities,SYN Electric Utilities 08 Corp,Public corporate bond,A,85.9,2156.0,
+H053,Electric Utilities,SYN Electric Utilities 09 Corp,Public corporate bond,A,27.3,683.0,147.0
+H054,Electric Utilities,SYN Electric Utilities 10 Corp,Private placement,BBB,15.7,412.0,
+H055,Electric Utilities,SYN Electric Utilities 11 Corp,Private placement,BBB,30.0,1341.0,
+H056,Electric Utilities,SYN Electric Utilities 12 Corp,Public corporate bond,BBB,22.3,1628.0,463.0
+H057,Electric Utilities,SYN Electric Utilities 13 Corp,Infrastructure debt,BBB,15.2,570.0,
+H058,Electric Utilities,SYN Electric Utilities 14 Corp,Public corporate bond,A,13.2,383.0,
+H059,Electric Utilities,SYN Electric Utilities 15 Corp,Public corporate bond,AA,26.4,12682.0,
+H060,Electric Utilities,SYN Electric Utilities 16 Corp,Public corporate bond,AAA,49.2,11205.0,2390.0
+H061,Electric Utilities,SYN Electric Utilities 17 Corp,Private placement,BBB,40.4,1188.0,
+H062,Electric Utilities,SYN Electric Utilities 18 Corp,Public corporate bond,AA,8.6,976.0,
+H063,Electric Utilities,SYN Electric Utilities 19 Corp,Public corporate bond,AAA,10.4,1657.0,
+H064,Electric Utilities,SYN Electric Utilities 20 Corp,Private placement,AA,101.5,6466.0,
+H065,Electric Utilities,SYN Electric Utilities 21 Corp,Public corporate bond,A,21.6,1148.0,
+H066,Electric Utilities,SYN Electric Utilities 22 Corp,Public corporate bond,BBB,66.9,2223.0,
+H067,Electric Utilities,SYN Electric Utilities 23 Corp,Public corporate bond,A,26.2,786.0,
+H068,Electric Utilities,SYN Electric Utilities 24 Corp,Infrastructure debt,A,36.3,1031.0,205.0
+H069,Electric Utilities,SYN Electric Utilities 25 Corp,Private placement,AA,26.7,1622.0,
+H070,Electric Utilities,SYN Electric Utilities 26 Corp,Public corporate bond,A,34.6,2069.0,
+H071,Electric Utilities,SYN Electric Utilities 27 Corp,Private placement,AA,15.5,606.0,
+H072,Electric Utilities,SYN Electric Utilities 28 Corp,Public corporate bond,AA,40.3,2172.0,
+H073,Electric Utilities,SYN Electric Utilities 29 Corp,Private placement,A,30.0,2238.0,680.0
+H074,Electric Utilities,SYN Electric Utilities 30 Corp,Public corporate bond,A,77.4,7873.0,
+H075,Gas Distribution & Water,SYN Gas Distribution & Water 01 Corp,Public corporate bond,A,41.9,1278.0,
+H076,Gas Distribution & Water,SYN Gas Distribution & Water 02 Corp,Public corporate bond,AA,74.2,4065.0,1320.0
+H077,Gas Distribution & Water,SYN Gas Distribution & Water 03 Corp,Public corporate bond,BBB,42.2,1119.0,
+H078,Gas Distribution & Water,SYN Gas Distribution & Water 04 Corp,Private placement,BBB,15.7,1061.0,
+H079,Gas Distribution & Water,SYN Gas Distribution & Water 05 Corp,Infrastructure debt,A,41.6,1354.0,
+H080,Gas Distribution & Water,SYN Gas Distribution & Water 06 Corp,Public corporate bond,A,58.9,12067.0,
+H081,Gas Distribution & Water,SYN Gas Distribution & Water 07 Corp,Private placement,A,20.2,1133.0,438.0
+H082,Gas Distribution & Water,SYN Gas Distribution & Water 08 Corp,Public corporate bond,A,46.1,3106.0,1097.0
+H083,Gas Distribution & Water,SYN Gas Distribution & Water 09 Corp,Public corporate bond,A,74.6,2463.0,
+H084,Gas Distribution & Water,SYN Gas Distribution & Water 10 Corp,Public corporate bond,A,21.0,654.0,236.0
+H085,Gas Distribution & Water,SYN Gas Distribution & Water 11 Corp,Public corporate bond,BBB,18.9,627.0,
+H086,Gas Distribution & Water,SYN Gas Distribution & Water 12 Corp,Public corporate bond,AA,20.6,1417.0,515.0
+H087,Gas Distribution & Water,SYN Gas Distribution & Water 13 Corp,Private placement,A,85.2,2316.0,
+H088,Gas Distribution & Water,SYN Gas Distribution & Water 14 Corp,Public corporate bond,BBB,29.2,1204.0,
+H089,Gas Distribution & Water,SYN Gas Distribution & Water 15 Corp,Private placement,A,9.9,476.0,114.0
+H090,Mining & Quarrying,SYN Mining & Quarrying 01 Corp,Public corporate bond,AA,41.7,1199.0,
+H091,Mining & Quarrying,SYN Mining & Quarrying 02 Corp,Public corporate bond,BBB,47.2,1961.0,
+H092,Mining & Quarrying,SYN Mining & Quarrying 03 Corp,Public corporate bond,AA,112.2,11852.0,
+H093,Mining & Quarrying,SYN Mining & Quarrying 04 Corp,Public corporate bond,BBB,44.9,1692.0,
+H094,Mining & Quarrying,SYN Mining & Quarrying 05 Corp,Public corporate bond,A,20.5,680.0,
+H095,Mining & Quarrying,SYN Mining & Quarrying 06 Corp,Private placement,A,14.9,1484.0,814.0
+H096,Mining & Quarrying,SYN Mining & Quarrying 07 Corp,Public corporate bond,AA,18.6,726.0,
+H097,Cement & Building Materials,SYN Cement & Building Materials 01 Corp,Public corporate bond,A,26.9,1207.0,812.0
+H098,Cement & Building Materials,SYN Cement & Building Materials 02 Corp,Private placement,AA,57.5,2614.0,
+H099,Cement & Building Materials,SYN Cement & Building Materials 03 Corp,Public corporate bond,AA,7.1,2326.0,
+H100,Cement & Building Materials,SYN Cement & Building Materials 04 Corp,Private placement,A,28.4,6350.0,
+H101,Metals & Steel,SYN Metals & Steel 01 Corp,Public corporate bond,BBB,54.1,3451.0,1964.0
+H102,Metals & Steel,SYN Metals & Steel 02 Corp,Public corporate bond,A,25.4,1257.0,
+H103,Metals & Steel,SYN Metals & Steel 03 Corp,Private placement,BBB,58.1,2441.0,
+H104,Metals & Steel,SYN Metals & Steel 04 Corp,Public corporate bond,A,42.5,11686.0,12544.0
+H105,Chemicals & Plastics,SYN Chemicals & Plastics 01 Corp,Private placement,BBB,29.2,5542.0,
+H106,Chemicals & Plastics,SYN Chemicals & Plastics 02 Corp,Public corporate bond,BBB,37.3,3249.0,2130.0
+H107,Chemicals & Plastics,SYN Chemicals & Plastics 03 Corp,Public corporate bond,AA,73.7,20584.0,
+H108,Chemicals & Plastics,SYN Chemicals & Plastics 04 Corp,Public corporate bond,A,52.1,3100.0,
+H109,Chemicals & Plastics,SYN Chemicals & Plastics 05 Corp,Public corporate bond,AA,28.0,959.0,1095.0
+H110,Chemicals & Plastics,SYN Chemicals & Plastics 06 Corp,Public corporate bond,BBB,19.7,627.0,
+H111,Forest & Paper Products,SYN Forest & Paper Products 01 Corp,Public corporate bond,AA,52.7,19916.0,15358.0
+H112,Forest & Paper Products,SYN Forest & Paper Products 02 Corp,Public corporate bond,A,23.0,1795.0,
+H113,Forest & Paper Products,SYN Forest & Paper Products 03 Corp,Public corporate bond,AA,28.2,9190.0,
+H114,Forest & Paper Products,SYN Forest & Paper Products 04 Corp,Private placement,A,29.3,1801.0,
+H115,Forest & Paper Products,SYN Forest & Paper Products 05 Corp,Public corporate bond,A,71.2,1974.0,
+H116,Forest & Paper Products,SYN Forest & Paper Products 06 Corp,Public corporate bond,AA,35.6,1617.0,
+H117,Agriculture & Food,SYN Agriculture & Food 01 Corp,Public corporate bond,BBB,27.4,1620.0,
+H118,Agriculture & Food,SYN Agriculture & Food 02 Corp,Public corporate bond,AA,44.8,1297.0,
+H119,Agriculture & Food,SYN Agriculture & Food 03 Corp,Public corporate bond,A,22.9,600.0,
+H120,Agriculture & Food,SYN Agriculture & Food 04 Corp,Infrastructure debt,A,26.4,1613.0,1938.0
+H121,Agriculture & Food,SYN Agriculture & Food 05 Corp,Private placement,A,58.3,5023.0,
+H122,Agriculture & Food,SYN Agriculture & Food 06 Corp,Public corporate bond,BBB,51.7,2647.0,
+H123,Agriculture & Food,SYN Agriculture & Food 07 Corp,Public corporate bond,AA,36.8,3972.0,
+H124,Agriculture & Food,SYN Agriculture & Food 08 Corp,Private placement,AAA,47.1,7451.0,
+H125,Agriculture & Food,SYN Agriculture & Food 09 Corp,Private placement,BBB,44.6,1297.0,1378.0
+H126,Airlines,SYN Airlines 01 Corp,Public corporate bond,BBB,38.6,2660.0,
+H127,Airlines,SYN Airlines 02 Corp,Public corporate bond,AA,56.9,1551.0,
+H128,Airlines,SYN Airlines 03 Corp,Private placement,AAA,50.7,5208.0,
+H129,Airlines,SYN Airlines 04 Corp,Private placement,AA,33.8,2039.0,
+H130,Rail,SYN Rail 01 Corp,Public corporate bond,AA,74.1,21354.0,
+H131,Rail,SYN Rail 02 Corp,Infrastructure debt,BBB,38.1,2007.0,
+H132,Rail,SYN Rail 03 Corp,Private placement,AA,40.9,1130.0,
+H133,Rail,SYN Rail 04 Corp,Public corporate bond,BBB,47.5,1210.0,
+H134,Rail,SYN Rail 05 Corp,Public corporate bond,BBB,19.3,943.0,
+H135,Rail,SYN Rail 06 Corp,Public corporate bond,A,22.6,779.0,
+H136,Rail,SYN Rail 07 Corp,Private placement,AA,83.5,9362.0,1986.0
+H137,Rail,SYN Rail 08 Corp,Private placement,AAA,48.1,1442.0,
+H138,Rail,SYN Rail 09 Corp,Public corporate bond,BBB,12.9,503.0,
+H139,Rail,SYN Rail 10 Corp,Public corporate bond,BBB,31.1,1687.0,
+H140,Rail,SYN Rail 11 Corp,Public corporate bond,AA,12.4,640.0,
+H141,Rail,SYN Rail 12 Corp,Public corporate bond,BBB,49.5,3416.0,1044.0
+H142,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 01 Corp",Public corporate bond,BBB,63.0,1954.0,
+H143,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 02 Corp",Private placement,A,9.9,548.0,
+H144,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 03 Corp",Public corporate bond,BBB,30.3,1728.0,1873.0
+H145,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 04 Corp",Public corporate bond,BBB,21.7,949.0,646.0
+H146,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 05 Corp",Public corporate bond,BBB,53.8,1383.0,
+H147,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 06 Corp",Private placement,A,47.7,1682.0,
+H148,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 07 Corp",Private placement,BBB,47.8,1590.0,
+H149,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 08 Corp",Private placement,BBB,38.4,1088.0,
+H150,"Trucking, Marine & Logistics","SYN Trucking, Marine & Logistics 09 Corp",Public corporate bond,A,47.3,1203.0,
+H151,Construction,SYN Construction 01 Corp,Public corporate bond,A,30.2,858.0,
+H152,Construction,SYN Construction 02 Corp,Private placement,A,70.4,4950.0,6484.0
+H153,Construction,SYN Construction 03 Corp,Public corporate bond,A,36.7,1312.0,
+H154,Construction,SYN Construction 04 Corp,Public corporate bond,AA,22.7,807.0,
+H155,Construction,SYN Construction 05 Corp,Public corporate bond,AA,36.6,1363.0,1889.0
+H156,Construction,SYN Construction 06 Corp,Public corporate bond,BBB,39.4,1026.0,
+H157,Construction,SYN Construction 07 Corp,Infrastructure debt,A,48.1,3948.0,
+H158,Construction,SYN Construction 08 Corp,Infrastructure debt,AA,17.9,1124.0,
+H159,Construction,SYN Construction 09 Corp,Infrastructure debt,BBB,58.2,1826.0,2337.0
+H160,Autos & Transport Equipment,SYN Autos & Transport Equipment 01 Corp,Public corporate bond,AAA,56.2,2551.0,
+H161,Autos & Transport Equipment,SYN Autos & Transport Equipment 02 Corp,Public corporate bond,AA,53.5,2519.0,2859.0
+H162,Autos & Transport Equipment,SYN Autos & Transport Equipment 03 Corp,Infrastructure debt,BBB,36.5,1176.0,1469.0
+H163,Autos & Transport Equipment,SYN Autos & Transport Equipment 04 Corp,Public corporate bond,A,61.2,2512.0,
+H164,Autos & Transport Equipment,SYN Autos & Transport Equipment 05 Corp,Private placement,AA,14.8,1010.0,1606.0
+H165,Autos & Transport Equipment,SYN Autos & Transport Equipment 06 Corp,Private placement,BBB,17.7,1027.0,797.0
+H166,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 01 Corp,Public corporate bond,A,40.7,1447.0,890.0
+H167,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 02 Corp,Private placement,AA,39.2,1253.0,1051.0
+H168,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 03 Corp,Private placement,AA,36.7,2803.0,
+H169,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 04 Corp,Public corporate bond,A,61.7,5040.0,
+H170,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 05 Corp,Public corporate bond,BBB,62.0,10349.0,
+H171,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 06 Corp,Public corporate bond,A,30.6,6471.0,
+H172,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 07 Corp,Private placement,A,22.6,2694.0,
+H173,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 08 Corp,Infrastructure debt,BBB,18.0,637.0,
+H174,Industrial & Tech Manufacturing,SYN Industrial & Tech Manufacturing 09 Corp,Infrastructure debt,BBB,48.4,7291.0,4347.0
+H175,Retail & Wholesale,SYN Retail & Wholesale 01 Corp,Public corporate bond,A,89.4,2823.0,
+H176,Retail & Wholesale,SYN Retail & Wholesale 02 Corp,Public corporate bond,AA,15.7,4260.0,5409.0
+H177,Retail & Wholesale,SYN Retail & Wholesale 03 Corp,Public corporate bond,AA,36.4,10491.0,16043.0
+H178,Retail & Wholesale,SYN Retail & Wholesale 04 Corp,Public corporate bond,A,12.5,1263.0,1573.0
+H179,Retail & Wholesale,SYN Retail & Wholesale 05 Corp,Public corporate bond,BBB,41.4,6049.0,
+H180,Retail & Wholesale,SYN Retail & Wholesale 06 Corp,Public corporate bond,BBB,59.1,3422.0,
+H181,Retail & Wholesale,SYN Retail & Wholesale 07 Corp,Private placement,BBB,24.3,4252.0,
+H182,Retail & Wholesale,SYN Retail & Wholesale 08 Corp,Private placement,A,23.2,2070.0,
+H183,Retail & Wholesale,SYN Retail & Wholesale 09 Corp,Private placement,BBB,34.4,2626.0,
+H184,Retail & Wholesale,SYN Retail & Wholesale 10 Corp,Private placement,BBB,22.7,1069.0,1375.0
+H185,Retail & Wholesale,SYN Retail & Wholesale 11 Corp,Public corporate bond,BBB,95.0,5221.0,
+H186,Retail & Wholesale,SYN Retail & Wholesale 12 Corp,Public corporate bond,A,59.5,2064.0,2674.0
+H187,Retail & Wholesale,SYN Retail & Wholesale 13 Corp,Public corporate bond,BBB,17.4,584.0,
+H188,Retail & Wholesale,SYN Retail & Wholesale 14 Corp,Infrastructure debt,AA,43.2,2822.0,
+H189,Retail & Wholesale,SYN Retail & Wholesale 15 Corp,Private placement,A,26.0,3335.0,
+H190,Telecom & Media,SYN Telecom & Media 01 Corp,Public corporate bond,BBB,70.3,18715.0,
+H191,Telecom & Media,SYN Telecom & Media 02 Corp,Public corporate bond,BBB,55.7,1832.0,926.0
+H192,Telecom & Media,SYN Telecom & Media 03 Corp,Public corporate bond,A,87.6,3431.0,
+H193,Telecom & Media,SYN Telecom & Media 04 Corp,Public corporate bond,BBB,69.8,18259.0,
+H194,Telecom & Media,SYN Telecom & Media 05 Corp,Private placement,BBB,19.7,7022.0,2404.0
+H195,Telecom & Media,SYN Telecom & Media 06 Corp,Private placement,A,42.6,12948.0,
+H196,Telecom & Media,SYN Telecom & Media 07 Corp,Public corporate bond,AA,26.0,782.0,344.0
+H197,Telecom & Media,SYN Telecom & Media 08 Corp,Public corporate bond,BBB,32.2,822.0,
+H198,Telecom & Media,SYN Telecom & Media 09 Corp,Private placement,AAA,19.7,582.0,219.0
+H199,Telecom & Media,SYN Telecom & Media 10 Corp,Public corporate bond,BBB,50.8,1827.0,1062.0
+H200,Telecom & Media,SYN Telecom & Media 11 Corp,Private placement,A,25.2,1770.0,610.0
+H201,Telecom & Media,SYN Telecom & Media 12 Corp,Private placement,BBB,76.7,5103.0,
+H202,Telecom & Media,SYN Telecom & Media 13 Corp,Public corporate bond,AA,5.4,948.0,
+H203,Telecom & Media,SYN Telecom & Media 14 Corp,Public corporate bond,BBB,19.0,944.0,
+H204,Telecom & Media,SYN Telecom & Media 15 Corp,Public corporate bond,A,14.6,2234.0,976.0
+H205,Telecom & Media,SYN Telecom & Media 16 Corp,Private placement,A,27.9,2167.0,
+H206,Telecom & Media,SYN Telecom & Media 17 Corp,Private placement,A,67.7,3333.0,
+H207,Telecom & Media,SYN Telecom & Media 18 Corp,Private placement,AA,37.9,1194.0,
+H208,Telecom & Media,SYN Telecom & Media 19 Corp,Private placement,A,12.9,1989.0,
+H209,Telecom & Media,SYN Telecom & Media 20 Corp,Private placement,A,54.5,3244.0,
+H210,Telecom & Media,SYN Telecom & Media 21 Corp,Public corporate bond,A,23.9,1763.0,
+H211,Banks & Insurance,SYN Banks & Insurance 01 Corp,Public corporate bond,A,44.4,1334.0,
+H212,Banks & Insurance,SYN Banks & Insurance 02 Corp,Public corporate bond,BBB,49.6,3109.0,
+H213,Banks & Insurance,SYN Banks & Insurance 03 Corp,Private placement,A,48.6,2403.0,
+H214,Banks & Insurance,SYN Banks & Insurance 04 Corp,Public corporate bond,A,137.2,3529.0,
+H215,Banks & Insurance,SYN Banks & Insurance 05 Corp,Private placement,AA,25.0,1937.0,
+H216,Banks & Insurance,SYN Banks & Insurance 06 Corp,Private placement,BBB,37.1,981.0,185.0
+H217,Banks & Insurance,SYN Banks & Insurance 07 Corp,Public corporate bond,BBB,17.8,1268.0,
+H218,Banks & Insurance,SYN Banks & Insurance 08 Corp,Infrastructure debt,A,40.3,6869.0,
+H219,Banks & Insurance,SYN Banks & Insurance 09 Corp,Private placement,BBB,42.9,5133.0,619.0
+H220,Banks & Insurance,SYN Banks & Insurance 10 Corp,Public corporate bond,AA,34.6,2008.0,
+H221,Banks & Insurance,SYN Banks & Insurance 11 Corp,Public corporate bond,BBB,48.3,7923.0,2400.0
+H222,Banks & Insurance,SYN Banks & Insurance 12 Corp,Infrastructure debt,BBB,38.5,995.0,
+H223,Banks & Insurance,SYN Banks & Insurance 13 Corp,Public corporate bond,BBB,68.4,2831.0,283.0
+H224,Banks & Insurance,SYN Banks & Insurance 14 Corp,Private placement,A,18.4,1802.0,
+H225,Banks & Insurance,SYN Banks & Insurance 15 Corp,Public corporate bond,BBB,7.2,424.0,
+H226,Banks & Insurance,SYN Banks & Insurance 16 Corp,Public corporate bond,A,34.6,971.0,
+H227,Banks & Insurance,SYN Banks & Insurance 17 Corp,Public corporate bond,A,62.6,2102.0,
+H228,Banks & Insurance,SYN Banks & Insurance 18 Corp,Public corporate bond,AA,69.2,5619.0,838.0
+H229,Banks & Insurance,SYN Banks & Insurance 19 Corp,Public corporate bond,A,10.5,550.0,93.0
+H230,Banks & Insurance,SYN Banks & Insurance 20 Corp,Public corporate bond,BBB,15.7,1296.0,
+H231,Banks & Insurance,SYN Banks & Insurance 21 Corp,Public corporate bond,BBB,101.7,3196.0,
+H232,Banks & Insurance,SYN Banks & Insurance 22 Corp,Private placement,BBB,83.7,2887.0,
+H233,Banks & Insurance,SYN Banks & Insurance 23 Corp,Infrastructure debt,BBB,54.9,7586.0,1092.0
+H234,Banks & Insurance,SYN Banks & Insurance 24 Corp,Private placement,A,38.6,3421.0,409.0
+H235,Banks & Insurance,SYN Banks & Insurance 25 Corp,Private placement,BBB,51.2,7586.0,1405.0
+H236,Banks & Insurance,SYN Banks & Insurance 26 Corp,Private placement,AA,12.4,4595.0,
+H237,Banks & Insurance,SYN Banks & Insurance 27 Corp,Infrastructure debt,BBB,36.4,945.0,150.0
+H238,Banks & Insurance,SYN Banks & Insurance 28 Corp,Public corporate bond,A,17.8,979.0,
+H239,Banks & Insurance,SYN Banks & Insurance 29 Corp,Public corporate bond,A,37.5,1509.0,
+H240,Banks & Insurance,SYN Banks & Insurance 30 Corp,Public corporate bond,A,21.4,1273.0,221.0
+H241,Banks & Insurance,SYN Banks & Insurance 31 Corp,Public corporate bond,BBB,38.3,2510.0,331.0
+H242,Banks & Insurance,SYN Banks & Insurance 32 Corp,Private placement,BBB,18.1,984.0,
+H243,Banks & Insurance,SYN Banks & Insurance 33 Corp,Public corporate bond,AAA,40.4,1169.0,303.0
+H244,Banks & Insurance,SYN Banks & Insurance 34 Corp,Public corporate bond,A,16.7,1113.0,
+H245,Banks & Insurance,SYN Banks & Insurance 35 Corp,Private placement,BBB,22.0,736.0,
+H246,Banks & Insurance,SYN Banks & Insurance 36 Corp,Private placement,BBB,29.1,4699.0,
+H247,Banks & Insurance,SYN Banks & Insurance 37 Corp,Private placement,AA,44.7,9507.0,
+H248,Banks & Insurance,SYN Banks & Insurance 38 Corp,Public corporate bond,AAA,15.8,518.0,77.0
+H249,Banks & Insurance,SYN Banks & Insurance 39 Corp,Public corporate bond,BBB,72.8,7053.0,877.0
+H250,Banks & Insurance,SYN Banks & Insurance 40 Corp,Private placement,AA,30.4,781.0,
+H251,Banks & Insurance,SYN Banks & Insurance 41 Corp,Private placement,BBB,12.4,387.0,
+H252,Banks & Insurance,SYN Banks & Insurance 42 Corp,Public corporate bond,AA,48.1,1728.0,
+H253,Banks & Insurance,SYN Banks & Insurance 43 Corp,Private placement,AA,15.1,1109.0,126.0
+H254,Banks & Insurance,SYN Banks & Insurance 44 Corp,Public corporate bond,BBB,6.6,179.0,31.0
+H255,Banks & Insurance,SYN Banks & Insurance 45 Corp,Infrastructure debt,AA,65.9,1995.0,
+H256,Banks & Insurance,SYN Banks & Insurance 46 Corp,Public corporate bond,BBB,77.5,3546.0,
+H257,Banks & Insurance,SYN Banks & Insurance 47 Corp,Public corporate bond,A,24.0,1283.0,
+H258,Banks & Insurance,SYN Banks & Insurance 48 Corp,Public corporate bond,AA,35.6,1339.0,
+H259,Real Estate,SYN Real Estate 01 Corp,Infrastructure debt,BBB,18.0,643.0,
+H260,Real Estate,SYN Real Estate 02 Corp,Private placement,BBB,18.0,629.0,
+H261,Real Estate,SYN Real Estate 03 Corp,Public corporate bond,AA,34.6,1712.0,205.0
+H262,Real Estate,SYN Real Estate 04 Corp,Private placement,BBB,14.5,1067.0,
+H263,Real Estate,SYN Real Estate 05 Corp,Public corporate bond,BBB,12.2,805.0,
+H264,Real Estate,SYN Real Estate 06 Corp,Public corporate bond,AA,45.7,1497.0,
+H265,Real Estate,SYN Real Estate 07 Corp,Public corporate bond,AA,54.1,1361.0,174.0
+H266,Real Estate,SYN Real Estate 08 Corp,Public corporate bond,BBB,33.7,1031.0,
+H267,Real Estate,SYN Real Estate 09 Corp,Public corporate bond,BBB,27.6,2155.0,
+H268,Real Estate,SYN Real Estate 10 Corp,Public corporate bond,AA,13.0,1028.0,
+H269,Real Estate,SYN Real Estate 11 Corp,Infrastructure debt,A,44.3,3190.0,
+H270,Real Estate,SYN Real Estate 12 Corp,Public corporate bond,A,30.0,1219.0,195.0
+H271,Real Estate,SYN Real Estate 13 Corp,Public corporate bond,AA,65.9,2396.0,279.0
+H272,Real Estate,SYN Real Estate 14 Corp,Public corporate bond,BBB,47.9,1474.0,
+H273,Real Estate,SYN Real Estate 15 Corp,Private placement,BBB,100.2,3823.0,
+H274,Real Estate,SYN Real Estate 16 Corp,Public corporate bond,BBB,60.8,2567.0,236.0
+H275,Real Estate,SYN Real Estate 17 Corp,Private placement,BBB,81.7,3766.0,399.0
+H276,Real Estate,SYN Real Estate 18 Corp,Public corporate bond,A,76.6,2142.0,
+H277,Real Estate,SYN Real Estate 19 Corp,Public corporate bond,A,24.3,7382.0,
+H278,Real Estate,SYN Real Estate 20 Corp,Public corporate bond,AA,18.1,856.0,
+H279,Real Estate,SYN Real Estate 21 Corp,Public corporate bond,BBB,81.9,7535.0,
+H280,Real Estate,SYN Real Estate 22 Corp,Public corporate bond,A,12.5,618.0,
+H281,Real Estate,SYN Real Estate 23 Corp,Public corporate bond,AA,27.7,705.0,
+H282,Real Estate,SYN Real Estate 24 Corp,Public corporate bond,BBB,16.7,608.0,100.0
+H283,Business & Consumer Services,SYN Business & Consumer Services 01 Corp,Public corporate bond,A,84.8,2474.0,2031.0
+H284,Business & Consumer Services,SYN Business & Consumer Services 02 Corp,Public corporate bond,A,39.1,1861.0,1112.0
+H285,Business & Consumer Services,SYN Business & Consumer Services 03 Corp,Public corporate bond,AA,17.0,1242.0,749.0
+H286,Business & Consumer Services,SYN Business & Consumer Services 04 Corp,Private placement,BBB,48.8,1414.0,1046.0
+H287,Business & Consumer Services,SYN Business & Consumer Services 05 Corp,Private placement,BBB,15.8,818.0,470.0
+H288,Business & Consumer Services,SYN Business & Consumer Services 06 Corp,Public corporate bond,A,54.6,6412.0,
+H289,Business & Consumer Services,SYN Business & Consumer Services 07 Corp,Private placement,AA,19.2,1564.0,
+H290,Business & Consumer Services,SYN Business & Consumer Services 08 Corp,Public corporate bond,AA,19.1,3427.0,2284.0
+H291,Business & Consumer Services,SYN Business & Consumer Services 09 Corp,Public corporate bond,AAA,20.6,2021.0,
+H292,Business & Consumer Services,SYN Business & Consumer Services 10 Corp,Public corporate bond,BBB,20.7,2539.0,1207.0
+H293,Business & Consumer Services,SYN Business & Consumer Services 11 Corp,Infrastructure debt,BBB,28.6,2852.0,
+H294,Business & Consumer Services,SYN Business & Consumer Services 12 Corp,Public corporate bond,AAA,182.4,26250.0,
+H295,Business & Consumer Services,SYN Business & Consumer Services 13 Corp,Public corporate bond,A,20.0,625.0,
+H296,Business & Consumer Services,SYN Business & Consumer Services 14 Corp,Public corporate bond,AA,14.8,413.0,
+H297,Business & Consumer Services,SYN Business & Consumer Services 15 Corp,Infrastructure debt,A,65.2,10242.0,5701.0
+H298,Business & Consumer Services,SYN Business & Consumer Services 16 Corp,Private placement,AA,15.1,878.0,496.0
+H299,Business & Consumer Services,SYN Business & Consumer Services 17 Corp,Public corporate bond,BBB,39.3,3465.0,
+H300,Business & Consumer Services,SYN Business & Consumer Services 18 Corp,Infrastructure debt,A,14.2,584.0,248.0

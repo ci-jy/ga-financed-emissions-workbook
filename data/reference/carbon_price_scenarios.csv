@@ -1,0 +1,4 @@
+scenario,2024,2025,2026,2027,2028,2029,2030,free_allocation_share,description
+Current federal policy,80,95,110,125,140,155,170,0.80,Federal OBPS benchmark price rising $15/t a year to $170/t in 2030; large emitters pay only on emissions above their output-based standard
+Net-zero shadow price,150,175,200,225,250,275,300,0.50,Illustrative internal shadow price consistent with a net-zero 2050 pathway; less free allocation
+Delayed transition,80,80,80,80,140,200,260,0.80,Illustrative path: price frozen to 2027 then a sharp catch-up toward net-zero levels
