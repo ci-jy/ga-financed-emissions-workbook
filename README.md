@@ -140,3 +140,5 @@ Reconciliation (from `reports/reconciliation.md`): industry rows match `Total, i
 - **Illustrative scenario paths.** Only the current-policy path follows the federal OBPS schedule. The net-zero and delayed paths and all free-allocation shares are assumptions to edit. The stress is static: no emission reductions, cost pass-through or spread impact.
 - **Single reporting year per run.** The year can be switched on the Inputs tab (2009-2022), but year-over-year attribution of changes is not built yet.
 - **Synthetic portfolio.** The results describe a seeded synthetic book, not any real insurer.
+
+Project period: 2026-09-13 to 2026-09-17.
