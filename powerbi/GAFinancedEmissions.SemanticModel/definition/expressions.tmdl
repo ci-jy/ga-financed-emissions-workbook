@@ -1,0 +1,3 @@
+/// Folder holding the CSV extracts written by scripts/export_powerbi_data.py (powerbi/data).
+expression DataFolder = "C:\ga-financed-emissions-workbook\powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 6f0c3b1e-1a52-4d1c-9a51-0d6a3e0c1001

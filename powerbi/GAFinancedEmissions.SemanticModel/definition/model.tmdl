@@ -1,0 +1,9 @@
+model Model
+	culture: en-CA
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+
+ref table Holdings
+ref table Sectors
+ref table CarbonPrices
+ref table Measures

@@ -1,0 +1,22 @@
+Scenario,Year,PricePerTonne,FreeAllocationShare
+Current federal policy,2024,80,0.8
+Net-zero shadow price,2024,150,0.5
+Delayed transition,2024,80,0.8
+Current federal policy,2025,95,0.8
+Net-zero shadow price,2025,175,0.5
+Delayed transition,2025,80,0.8
+Current federal policy,2026,110,0.8
+Net-zero shadow price,2026,200,0.5
+Delayed transition,2026,80,0.8
+Current federal policy,2027,125,0.8
+Net-zero shadow price,2027,225,0.5
+Delayed transition,2027,80,0.8
+Current federal policy,2028,140,0.8
+Net-zero shadow price,2028,250,0.5
+Delayed transition,2028,140,0.8
+Current federal policy,2029,155,0.8
+Net-zero shadow price,2029,275,0.5
+Delayed transition,2029,200,0.8
+Current federal policy,2030,170,0.8
+Net-zero shadow price,2030,300,0.5
+Delayed transition,2030,260,0.8

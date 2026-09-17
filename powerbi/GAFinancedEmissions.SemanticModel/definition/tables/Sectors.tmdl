@@ -1,0 +1,47 @@
+/// Portfolio sectors with Statistics Canada emission factors (38-10-0097-01 / 36-10-0488-01) for the reporting year.
+table Sectors
+	lineageTag: 1b5f5d9f-6c2a-4e1f-8b4d-2c3d4e5f4001
+
+	column Sector
+		dataType: string
+		lineageTag: 1b5f5d9f-6c2a-4e1f-8b4d-2c3d4e5f4002
+		summarizeBy: none
+		sourceColumn: Sector
+
+	column EmissionFactor
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 1b5f5d9f-6c2a-4e1f-8b4d-2c3d4e5f4003
+		summarizeBy: none
+		sourceColumn: EmissionFactor
+
+	column OutputMCAD
+		dataType: double
+		formatString: #,0
+		lineageTag: 1b5f5d9f-6c2a-4e1f-8b4d-2c3d4e5f4004
+		summarizeBy: sum
+		sourceColumn: OutputMCAD
+
+	column EmissionsKt
+		dataType: double
+		formatString: #,0
+		lineageTag: 1b5f5d9f-6c2a-4e1f-8b4d-2c3d4e5f4005
+		summarizeBy: sum
+		sourceColumn: EmissionsKt
+
+	column RevenueToEVIC
+		dataType: double
+		formatString: 0.00
+		lineageTag: 1b5f5d9f-6c2a-4e1f-8b4d-2c3d4e5f4006
+		summarizeBy: none
+		sourceColumn: RevenueToEVIC
+
+	partition Sectors = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "sectors.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Sector", type text}, {"EmissionFactor", type number}, {"OutputMCAD", type number}, {"EmissionsKt", type number}, {"RevenueToEVIC", type number}}, "en-CA")
+				in
+				    Typed

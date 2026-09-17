@@ -1,0 +1,23 @@
+Sector,EmissionFactor,OutputMCAD,EmissionsKt,RevenueToEVIC
+Oil & Gas Producers,623.8864771,302867.6,188955,0.55
+Petroleum Refining,173.4340709,120656.8,20926,1.4
+Pipelines,664.5830839,15870.1,10547,0.25
+Electric Utilities,1027.830312,57951.2,59564,0.3
+Gas Distribution & Water,265.5422029,8454.4,2245,0.35
+Mining & Quarrying,188.9701705,77631.3,14670,0.5
+Cement & Building Materials,596.9415765,22586.8,13483,0.7
+Metals & Steel,160.9021636,156902.8,25246,0.9
+Chemicals & Plastics,167.2001668,120837.2,20204,0.8
+Forest & Paper Products,480.3790528,112448.7,54018,0.85
+Agriculture & Food,280.0828309,291292.4,81586,1.1
+Airlines,680.1087826,27614.7,18781,0.9
+Rail,282.0474793,18879.8,5325,0.3
+"Trucking, Marine & Logistics",142.306241,201150.7,28625,0.9
+Construction,18.16766664,459827.9,8354,1.2
+Autos & Transport Equipment,12.19371966,120881.9,1474,1
+Industrial & Tech Manufacturing,16.70616939,127797.1,2135,0.7
+Retail & Wholesale,42.88547595,420608.6,18038,1.3
+Telecom & Media,8.237053265,138034.8,1137,0.35
+Banks & Insurance,10.29604837,358292.8,3689,0.15
+Real Estate,56.19474688,160228.5,9004,0.12
+Business & Consumer Services,19.1921437,733373,14075,0.6

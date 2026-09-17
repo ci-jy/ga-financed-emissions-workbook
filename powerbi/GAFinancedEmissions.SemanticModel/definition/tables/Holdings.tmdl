@@ -1,0 +1,70 @@
+/// SYNTHETIC general-account corporate bond holdings (no real issuers).
+table Holdings
+	lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3001
+
+	column HoldingID
+		dataType: string
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3002
+		summarizeBy: none
+		sourceColumn: HoldingID
+
+	column Issuer
+		dataType: string
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3003
+		summarizeBy: none
+		sourceColumn: Issuer
+
+	column Sector
+		dataType: string
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3004
+		summarizeBy: none
+		sourceColumn: Sector
+
+	column Instrument
+		dataType: string
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3005
+		summarizeBy: none
+		sourceColumn: Instrument
+
+	column OutstandingMCAD
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3006
+		summarizeBy: sum
+		sourceColumn: OutstandingMCAD
+
+	column EVICMCAD
+		dataType: double
+		formatString: #,0
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3007
+		summarizeBy: none
+		sourceColumn: EVICMCAD
+
+	column RevenueReportedMCAD
+		dataType: double
+		formatString: #,0
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3008
+		summarizeBy: none
+		sourceColumn: RevenueReportedMCAD
+
+	column RevenueUsedMCAD = IF(ISBLANK(Holdings[RevenueReportedMCAD]), Holdings[EVICMCAD] * RELATED(Sectors[RevenueToEVIC]), Holdings[RevenueReportedMCAD])
+		dataType: double
+		formatString: #,0
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3009
+		summarizeBy: none
+
+	column PCAFScore = IF(ISBLANK(Holdings[RevenueReportedMCAD]), 5, 4)
+		dataType: int64
+		formatString: 0
+		lineageTag: 0a4e4c8e-5b1f-4d0e-9a3c-1b2c3d4e3010
+		summarizeBy: none
+
+	partition Holdings = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "holdings.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"HoldingID", type text}, {"Issuer", type text}, {"Sector", type text}, {"Instrument", type text}, {"OutstandingMCAD", type number}, {"EVICMCAD", type number}, {"RevenueReportedMCAD", type number}}, "en-CA")
+				in
+				    Typed

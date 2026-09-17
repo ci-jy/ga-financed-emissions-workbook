@@ -1,0 +1,79 @@
+/// B-15 style climate metrics. Every measure has a pandas twin in scripts/dax_twins.py.
+table Measures
+	lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6001
+
+	measure 'Total Outstanding' = SUM(Holdings[OutstandingMCAD])
+		formatString: #,0.0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6002
+
+	measure 'Holding Count' = COUNTROWS(Holdings)
+		formatString: 0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6003
+
+	measure 'Financed Emissions' = SUMX(Holdings, DIVIDE(Holdings[OutstandingMCAD], Holdings[EVICMCAD]) * Holdings[RevenueUsedMCAD] * RELATED(Sectors[EmissionFactor]))
+		formatString: #,0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6004
+
+	measure 'Carbon Footprint' = DIVIDE([Financed Emissions], [Total Outstanding])
+		formatString: #,0.0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6005
+
+	measure 'Portfolio Weight' = DIVIDE([Total Outstanding], CALCULATE([Total Outstanding], ALL(Holdings), ALL(Sectors)))
+		formatString: 0.00%
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6006
+
+	measure WACI = SUMX(Holdings, DIVIDE(Holdings[OutstandingMCAD], CALCULATE(SUM(Holdings[OutstandingMCAD]), ALL(Holdings), ALL(Sectors))) * RELATED(Sectors[EmissionFactor]))
+		formatString: #,0.0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6007
+
+	measure 'Benchmark Weight' = DIVIDE(SUM(Sectors[OutputMCAD]), CALCULATE(SUM(Sectors[OutputMCAD]), ALL(Sectors)))
+		formatString: 0.00%
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6008
+
+	measure 'Benchmark WACI' = SUMX(Sectors, DIVIDE(Sectors[OutputMCAD], CALCULATE(SUM(Sectors[OutputMCAD]), ALL(Sectors))) * Sectors[EmissionFactor])
+		formatString: #,0.0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6009
+
+	measure 'WACI vs Benchmark' = DIVIDE([WACI], CALCULATE([Benchmark WACI], ALL(Sectors))) - 1
+		formatString: 0.0%
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6010
+
+	measure 'Weighted PCAF Score' = DIVIDE(SUMX(Holdings, Holdings[OutstandingMCAD] * Holdings[PCAFScore]), [Total Outstanding])
+		formatString: 0.00
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6011
+
+	measure 'Share of Book at PCAF 5' = DIVIDE(CALCULATE([Total Outstanding], Holdings[PCAFScore] = 5), [Total Outstanding])
+		formatString: 0.0%
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6012
+
+	measure 'Share of Financed Emissions' = DIVIDE([Financed Emissions], CALCULATE([Financed Emissions], ALL(Holdings), ALL(Sectors)))
+		formatString: 0.0%
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6013
+
+	measure 'Effective Carbon Price' = AVERAGEX(CarbonPrices, CarbonPrices[PricePerTonne] * (1 - CarbonPrices[FreeAllocationShare]))
+		formatString: #,0.0
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6014
+
+	measure 'Carbon Cost MCAD' = [Financed Emissions] * [Effective Carbon Price] / 1000000
+		formatString: #,0.00
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6015
+
+	measure 'Carbon Cost Share of Holdings' = DIVIDE([Carbon Cost MCAD], [Total Outstanding])
+		formatString: 0.00%
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6016
+
+	measure 'Carbon Cost 2030 Current Policy' = CALCULATE([Carbon Cost MCAD], CarbonPrices[Scenario] = "Current federal policy", CarbonPrices[Year] = 2030)
+		formatString: #,0.00
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6017
+
+	measure 'Carbon Cost 2030 Net-Zero' = CALCULATE([Carbon Cost MCAD], CarbonPrices[Scenario] = "Net-zero shadow price", CarbonPrices[Year] = 2030)
+		formatString: #,0.00
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6018
+
+	measure 'Carbon Cost 2030 Delayed Transition' = CALCULATE([Carbon Cost MCAD], CarbonPrices[Scenario] = "Delayed transition", CarbonPrices[Year] = 2030)
+		formatString: #,0.00
+		lineageTag: 3d7b7fb0-8e4c-4a3b-8d6f-4e5f6a7b6019
+
+	partition Measures = calculated
+		mode: import
+		source = ROW("Placeholder", BLANK())

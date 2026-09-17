@@ -1,0 +1,40 @@
+/// Carbon price paths by scenario and year (disconnected table; slice it to pick a scenario and year).
+table CarbonPrices
+	lineageTag: 2c6a6eaf-7d3b-4f2a-9c5e-3d4e5f6a5001
+
+	column Scenario
+		dataType: string
+		lineageTag: 2c6a6eaf-7d3b-4f2a-9c5e-3d4e5f6a5002
+		summarizeBy: none
+		sourceColumn: Scenario
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c6a6eaf-7d3b-4f2a-9c5e-3d4e5f6a5003
+		summarizeBy: none
+		sourceColumn: Year
+
+	column PricePerTonne
+		dataType: double
+		formatString: #,0
+		lineageTag: 2c6a6eaf-7d3b-4f2a-9c5e-3d4e5f6a5004
+		summarizeBy: none
+		sourceColumn: PricePerTonne
+
+	column FreeAllocationShare
+		dataType: double
+		formatString: 0%
+		lineageTag: 2c6a6eaf-7d3b-4f2a-9c5e-3d4e5f6a5005
+		summarizeBy: none
+		sourceColumn: FreeAllocationShare
+
+	partition CarbonPrices = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "carbon_prices.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Scenario", type text}, {"Year", Int64.Type}, {"PricePerTonne", type number}, {"FreeAllocationShare", type number}}, "en-CA")
+				in
+				    Typed

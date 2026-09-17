@@ -1,0 +1,164 @@
+{
+  "config": "{\"version\": \"5.43\"}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "name": "page1",
+      "displayName": "Emissions by Sector",
+      "ordinal": 0,
+      "width": 1280,
+      "height": 720,
+      "displayOption": 1,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v00\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Financed Emissions\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Financed Emissions\"}, \"Name\": \"Measures.Financed Emissions\"}]}}}"
+        },
+        {
+          "x": 330,
+          "y": 20,
+          "z": 1,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v01\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Carbon Footprint\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Footprint\"}, \"Name\": \"Measures.Carbon Footprint\"}]}}}"
+        },
+        {
+          "x": 640,
+          "y": 20,
+          "z": 2,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v02\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Weighted PCAF Score\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Weighted PCAF Score\"}, \"Name\": \"Measures.Weighted PCAF Score\"}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 3,
+          "width": 610,
+          "height": 550,
+          "config": "{\"name\": \"v03\", \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Sectors.Sector\"}], \"Y\": [{\"queryRef\": \"Measures.Financed Emissions\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Sectors\"}}, \"Property\": \"Sector\"}, \"Name\": \"Sectors.Sector\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Financed Emissions\"}, \"Name\": \"Measures.Financed Emissions\"}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 150,
+          "z": 4,
+          "width": 610,
+          "height": 550,
+          "config": "{\"name\": \"v04\", \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"Sectors.Sector\"}, {\"queryRef\": \"Measures.Total Outstanding\"}, {\"queryRef\": \"Measures.Holding Count\"}, {\"queryRef\": \"Measures.Financed Emissions\"}, {\"queryRef\": \"Measures.Share of Financed Emissions\"}, {\"queryRef\": \"Measures.Share of Book at PCAF 5\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Sectors\"}}, \"Property\": \"Sector\"}, \"Name\": \"Sectors.Sector\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Total Outstanding\"}, \"Name\": \"Measures.Total Outstanding\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Holding Count\"}, \"Name\": \"Measures.Holding Count\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Financed Emissions\"}, \"Name\": \"Measures.Financed Emissions\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Share of Financed Emissions\"}, \"Name\": \"Measures.Share of Financed Emissions\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Share of Book at PCAF 5\"}, \"Name\": \"Measures.Share of Book at PCAF 5\"}]}}}"
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "displayName": "WACI vs Benchmark",
+      "ordinal": 1,
+      "width": 1280,
+      "height": 720,
+      "displayOption": 1,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v00\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.WACI\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"WACI\"}, \"Name\": \"Measures.WACI\"}]}}}"
+        },
+        {
+          "x": 330,
+          "y": 20,
+          "z": 1,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v01\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Benchmark WACI\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Benchmark WACI\"}, \"Name\": \"Measures.Benchmark WACI\"}]}}}"
+        },
+        {
+          "x": 640,
+          "y": 20,
+          "z": 2,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v02\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.WACI vs Benchmark\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"WACI vs Benchmark\"}, \"Name\": \"Measures.WACI vs Benchmark\"}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 3,
+          "width": 610,
+          "height": 550,
+          "config": "{\"name\": \"v03\", \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Sectors.Sector\"}], \"Y\": [{\"queryRef\": \"Measures.Portfolio Weight\"}, {\"queryRef\": \"Measures.Benchmark Weight\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Sectors\"}}, \"Property\": \"Sector\"}, \"Name\": \"Sectors.Sector\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Portfolio Weight\"}, \"Name\": \"Measures.Portfolio Weight\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Benchmark Weight\"}, \"Name\": \"Measures.Benchmark Weight\"}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 150,
+          "z": 4,
+          "width": 610,
+          "height": 550,
+          "config": "{\"name\": \"v04\", \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"Sectors.Sector\"}, {\"queryRef\": \"Sectors.EmissionFactor\"}, {\"queryRef\": \"Measures.Portfolio Weight\"}, {\"queryRef\": \"Measures.Benchmark Weight\"}, {\"queryRef\": \"Measures.WACI\"}, {\"queryRef\": \"Measures.Benchmark WACI\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Sectors\"}}, \"Property\": \"Sector\"}, \"Name\": \"Sectors.Sector\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Sectors\"}}, \"Property\": \"EmissionFactor\"}, \"Name\": \"Sectors.EmissionFactor\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Portfolio Weight\"}, \"Name\": \"Measures.Portfolio Weight\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Benchmark Weight\"}, \"Name\": \"Measures.Benchmark Weight\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"WACI\"}, \"Name\": \"Measures.WACI\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Benchmark WACI\"}, \"Name\": \"Measures.Benchmark WACI\"}]}}}"
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "displayName": "Scenario Carbon-Cost Exposure",
+      "ordinal": 2,
+      "width": 1280,
+      "height": 720,
+      "displayOption": 1,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v00\", \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Category\": [{\"queryRef\": \"CarbonPrices.Scenario\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"CarbonPrices\"}}, \"Property\": \"Scenario\"}, \"Name\": \"CarbonPrices.Scenario\"}]}}}"
+        },
+        {
+          "x": 330,
+          "y": 20,
+          "z": 1,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v01\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Carbon Cost 2030 Current Policy\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Cost 2030 Current Policy\"}, \"Name\": \"Measures.Carbon Cost 2030 Current Policy\"}]}}}"
+        },
+        {
+          "x": 640,
+          "y": 20,
+          "z": 2,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v02\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Carbon Cost 2030 Net-Zero\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Cost 2030 Net-Zero\"}, \"Name\": \"Measures.Carbon Cost 2030 Net-Zero\"}]}}}"
+        },
+        {
+          "x": 950,
+          "y": 20,
+          "z": 3,
+          "width": 290,
+          "height": 110,
+          "config": "{\"name\": \"v03\", \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Measures.Carbon Cost 2030 Delayed Transition\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Cost 2030 Delayed Transition\"}, \"Name\": \"Measures.Carbon Cost 2030 Delayed Transition\"}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 4,
+          "width": 610,
+          "height": 550,
+          "config": "{\"name\": \"v04\", \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"CarbonPrices.Year\"}], \"Series\": [{\"queryRef\": \"CarbonPrices.Scenario\"}], \"Y\": [{\"queryRef\": \"Measures.Carbon Cost MCAD\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"CarbonPrices\"}}, \"Property\": \"Year\"}, \"Name\": \"CarbonPrices.Year\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"CarbonPrices\"}}, \"Property\": \"Scenario\"}, \"Name\": \"CarbonPrices.Scenario\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Cost MCAD\"}, \"Name\": \"Measures.Carbon Cost MCAD\"}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 150,
+          "z": 5,
+          "width": 610,
+          "height": 550,
+          "config": "{\"name\": \"v05\", \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"CarbonPrices.Scenario\"}, {\"queryRef\": \"CarbonPrices.Year\"}, {\"queryRef\": \"Measures.Effective Carbon Price\"}, {\"queryRef\": \"Measures.Carbon Cost MCAD\"}, {\"queryRef\": \"Measures.Carbon Cost Share of Holdings\"}]}, \"prototypeQuery\": {\"Version\": 2, \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"CarbonPrices\"}}, \"Property\": \"Scenario\"}, \"Name\": \"CarbonPrices.Scenario\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"CarbonPrices\"}}, \"Property\": \"Year\"}, \"Name\": \"CarbonPrices.Year\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Effective Carbon Price\"}, \"Name\": \"Measures.Effective Carbon Price\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Cost MCAD\"}, \"Name\": \"Measures.Carbon Cost MCAD\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"Measures\"}}, \"Property\": \"Carbon Cost Share of Holdings\"}, \"Name\": \"Measures.Carbon Cost Share of Holdings\"}]}}}"
+        }
+      ]
+    }
+  ]
+}
